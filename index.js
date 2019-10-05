@@ -9,16 +9,16 @@ var ourHeadline = document.getElementById("our-headline");
 //     listItems[i].innerHTML = "Hello world !";
 // }
 
-for(let i = 0; i < listItems.length; i++){
-    listItems[i].addEventListener("click", activatedItem)
-}
+ourList.addEventListener('click', activatedItem);
 
 function activatedItem(){
-    ourHeadline.innerHTML = this.innerHTML;
+    if(){
+        ourHeadline.innerHTML = this.innerHTML;
     for(let i = 0; i < listItems.length; i++){
-        listItems[i].classList.remove("active")
+        listItems[i].classList.remove("active", activatedItem)
     }
     this.classList.add("active")
+    }
 }
 
 ourButton.addEventListener("click", creatNewItem)
