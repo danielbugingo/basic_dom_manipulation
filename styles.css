@@ -31,3 +31,9 @@ button{
     border-radius: 2.5px;
     color: rgb(255, 255, 255)
 }
+
+input{
+    padding: 12px 5px 12px 5px;
+    border-style: none;
+    background-color: silver;
+}
